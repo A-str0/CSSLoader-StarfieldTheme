@@ -1,0 +1,29 @@
+.quickaccessmenu_Tabs_3Ag1w {
+    background-image: url("Images/constellation_pillar.png");
+}
+
+.quickaccessmenu_Tab_1S76C {
+    background-color: #b1bcb663;
+    color: var(--ST-secondary-dark-color);
+}
+
+.quickaccessmenu_Tab_1S76C.gpfocus,
+.quickaccessmenu_Tab_1S76C:focus:hover {
+    background: var(--ST-secondary-dark-color);
+    color: var(--ST-primary-regurlar-color);
+}
+
+.quickaccessmenu_Title_34nl5 {
+    background: var(--ST-secondary-dark-color);
+    color: var(--ST-primary-light-color);
+    box-shadow: 0 0 0px 2px var(--ST-primary-light-color);
+    margin-top: 10px;
+}
+
+.quickaccessmenu_ContentTransition_32AON {
+    background-color: var;
+}
+
+.standardtemplates_StandardTemplateContainer_1adpx.gpfocus {
+    background-color: var(--ST-secondary-regular-color);
+}

@@ -15,6 +15,14 @@
                 "No": {}
             }
         },
+        "QuickAccess": {
+            "type": "checkbox",
+            "default": "Yes",
+            "values:": {
+                "Yes": { "CSS/QuickAccess": [ "QuickAccess" ] },
+                "No": {}
+            }
+        },
         "Keyboard": {
             "type": "checkbox",
             "default": "Yes",
