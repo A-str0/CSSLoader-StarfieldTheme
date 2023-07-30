@@ -15,15 +15,15 @@
 .mainmenu_ItemIcon_3xZ3Z, .mainmenu_ItemLabel_3x-ZK {
     color: var(--ST-secondary-dark-color);
 }
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 {
+    background: var(--ST-secondary-dark-color);
+}
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5.Panel.Focusable.gpfocus.gpfocuswithin {
+    background: var(--ST-secondary-light-color);
+}
 
 .mainmenu_Item_2w9Tp.gpfocus,
 .mainmenu_Item_2w9Tp:focus:hover {
-    background: var(--ST-primary-light-colo);
+    background: var(--ST-primary-light-color);
     animation: none;
-}
-.mainmenu_ItemLabel_3x-ZK.gpfocus,
-.mainmenu_ItemLabel_3x-ZK:focus:hover,
-.mainmenu_ItemIcon_3xZ3Z.gpfocus,
-.mainmenu_ItemIcon_3xZ3Z:focus:hover {
-    color: var(--ST-white-color);
 }
