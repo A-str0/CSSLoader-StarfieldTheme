@@ -1,4 +1,9 @@
 :root {
+    --ST-primary-light-color: #CAD1CA;
+    --ST-primary-regular-color: #B1BCB6;
+    --ST-primary-dark-color: #A0ABA5;
+    --ST-secondary-dark-color: #233B45;
+
     --ST-white-color: #ede8d3;
     --ST-background-color: #99968b;
     --ST-lightblue-color: #4a658e;

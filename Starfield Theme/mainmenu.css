@@ -1,29 +1,29 @@
 .mainmenu_Menu_23IDi {
-    background: var(--ST-white-color);
+    background: var(--ST-primary-dark-color);
 }
 .mainmenu_ItemOuter_1BbM8 {
-    background: transparent;
+    background: var(--ST-primary-regular-color);
 }
 
-.mainmenu_ActiveDot_1uLVH {
-    background: var(--ST-orange-color);
-    border-radius: 3px;
+.mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
+    width: 12px;
+    height: 70%;
+    background: var(--ST-secondary-dark-color);
+    border-radius: 1px;
 }
 
 .mainmenu_ItemIcon_3xZ3Z, .mainmenu_ItemLabel_3x-ZK {
-    color: var(--ST-blue-color);
-}
-
-.mainmenu_Item_2w9Tp .marquee_Content_2ADpT, 
-.mainmenu_Item_2w9Tp .mainmenu_ItemIcon_3xZ3Z,
-.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, 
-.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
-    color: var(--ST-blue-color);
+    color: var(--ST-secondary-dark-color);
 }
 
 .mainmenu_Item_2w9Tp.gpfocus,
 .mainmenu_Item_2w9Tp:focus:hover {
-    color: var(--ST-lightblue-color);
-    background: var(--ST-white-color);
+    background: var(--ST-primary-light-colo);
     animation: none;
+}
+.mainmenu_ItemLabel_3x-ZK.gpfocus,
+.mainmenu_ItemLabel_3x-ZK:focus:hover,
+.mainmenu_ItemIcon_3xZ3Z.gpfocus,
+.mainmenu_ItemIcon_3xZ3Z:focus:hover {
+    color: var(--ST-white-color);
 }
