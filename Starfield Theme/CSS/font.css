@@ -1,0 +1,8 @@
+@font-face {
+    font-family: SpaceMono;
+    src: url("/themes_custom/Starfield Theme/Fonts/SpaceMono-Regular.ttf");
+}
+
+* {
+    font-family: SpaceMono !important;
+}
