@@ -6,7 +6,8 @@
     "description": "Theme themed after the Starfield game (some elements may differ from the game, as they are either copyrighted or cost money)",
     "version": "v0.1",
     "inject": {
-        "shared.css": ["QuickAccess", "SP", "MainMenu"]
+        "colors.css": ["MainMenu"],
+        "mainmenu.css": ["MainMenu"]
     },
     "patches": {
         "MainMenu": {
