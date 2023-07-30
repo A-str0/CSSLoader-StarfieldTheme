@@ -7,7 +7,7 @@
     "version": "v0.2",
     "inject": { "CSS/colors.css": [ "QuickAccess", "SP", "MainMenu" ] },
     "patches": {
-        "MainMenu": {
+        "Main Menu": {
             "type" : "checkbox",
             "default": "Yes",
             "values": {
@@ -15,11 +15,11 @@
                 "No": {}
             }
         },
-        "QuickAccess": {
+        "Quick Access": {
             "type": "checkbox",
             "default": "Yes",
             "values:": {
-                "Yes": { "CSS/QuickAccess": [ "QuickAccess" ] },
+                "Yes": { "CSS/quickaccess.css": [ "QuickAccess" ] },
                 "No": {}
             }
         },
