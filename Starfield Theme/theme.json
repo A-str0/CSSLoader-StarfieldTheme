@@ -4,32 +4,33 @@
     "target": "System-Wide",
     "manifest_version": 4,
     "description": "Theme themed after the Starfield game (some elements may differ from the game, as they are either copyrighted or cost money)",
-    "version": "v0.1",
+    "version": "v0.2",
     "inject": { "CSS/colors.css": [ "QuickAccess", "SP", "MainMenu" ] },
     "patches": {
         "MainMenu": {
             "type" : "checkbox",
-            "default": "On",
+            "default": "Yes",
             "values": {
-                "On": { "CSS/mainmenu.css": ["MainMenu"] },
-                "Off": {}
+                "Yes": { "CSS/mainmenu.css": ["MainMenu"] },
+                "No": {}
             }
         },
         "Keyboard": {
             "type": "checkbox",
+            "default": "Yes",
             "values": {
-                "On": { "CSS/keyboard.css": [ "QuickAccess", "SP", "MainMenu" ]},
-                "Off": {}
+                "Yes": { "CSS/keyboard.css": [ "QuickAccess", "SP", "MainMenu" ] },
+                "No": {}
             }
         },
         "Font":{
             "type": "checkbox",
-            "default": "On",
+            "default": "Yes",
             "values": {
-                "On": {
+                "Yes": {
                     "CSS/font.css": ["SP", "MainMenu", "QuickAccess"]
                 },
-                "Off": {}
+                "No": {}
             }
         }
     }

@@ -1,8 +1,6 @@
 .DefaultTheme {
-    /* General variables */
     --background-color: var(--sk-background-color);
   
-    /* Main Keyboard variables */
     --key-focused-action-button-left-color: var(--sk-darkblue-color);
     --key-focused-action-button-right-color: var(--sk-darkblue-color);
     --key-action-button-glyph-color: var(--sk-realwhite-color);
@@ -12,8 +10,7 @@
   
     --key-background-color: var(--sk-white-color);
     --key-focused-background-color: var(--sk-darkblue-color);
-  
-    /* Function Keys */
+
     --key-meta-color: var(--sk-white-color);
     --key-meta-background-color: var(--sk-blue-color);
   
@@ -38,7 +35,6 @@
   
     --key-spacer-background-color: var(--sk-darkgrey-color);
   
-    /* extendedkey Key variables */
     --key-extendedkey-background-color: var(--sk-lightblue-color);
     --key-extendedkey-color: var(--sk-white-color);
   
@@ -48,16 +44,13 @@
     --key-extendedkey-hover-background-color:var(--sk-orange-color);
     --key-extendedkey-hover-color: var(--sk-white-color);
   
-    /* Key Toggle variables */
     --key-toggleon-background-color: var(--sk-lightblue-color);
     --key-toggleon-color: var(--sk-white-color);
     --key-toggleoneshot-color: var(--sk-red-color);
   
-    /* Emoji page variables */
     --key-emoji-category-highlight-background-color: var(--sk-blue-color);
     --key-emoji-focused-background-color: var(--sk-darkblue-color);
   
-    /* Mouse Pointer variables */
     --key-touched-background-color: var(--sk-blue-color);
     --key-touched-color: var(--sk-white-color);
   
