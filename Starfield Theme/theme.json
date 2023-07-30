@@ -15,19 +15,7 @@
             "values": {
                 "Yes": {},
                 "No": {}
-            },
-            "components": [
-                {
-                    "name": "Background color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#99968b",
-                    "css_variable": "ST-mainmenu-backgroundcolor",
-                    "tabs": [
-                        "MainMenu"
-                    ]
-                }
-            ]
+            }
         }
     }
 }

@@ -1,7 +1,23 @@
 :root {
-    --ST-mainmenu-backgroundcolor: #99968b;
+    --ST-white-color: #ede8d3;
+    --ST-background-color: #99968b;
+    --ST-lightblue-color: #4a658e;
+    --ST-blue-color: #2f4c79;
+    --ST-darkblue-color: #213150;
+    --ST-grey-color: #5b5b5b;
+    --ST-lightgray-color: #99968b;
+    --ST-yellow-color: #d8a74a;
+    --ST-orange-color: #e16136;
+    --ST-red-color: #c72334;
+    --ST-realwhite-color:#d3d9e6;
+
 }
 
-.mainmenu_Container_3vzvO {
-    background-color: var(--ST-mainmenu-backgroundcolor);
+.mainmenu_Container_3vzvO, .mainmenu_Container_3vzvO {
+    background-color: var(--ST-background-color);
+    color: var(--ST-white-color);
+}
+.mainmenu_ItemOuter_1BbM8 {
+    background-color: var(--ST-mainmenu-button1color);
+    color: var(--ST-white-color);
 }
