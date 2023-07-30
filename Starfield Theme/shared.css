@@ -1,0 +1,7 @@
+:root {
+    --ST-mainmenu-backgroundcolor: #99968b;
+}
+
+.mainmenu_Container_3vzvO {
+    background-color: var(--ST-mainmenu-backgroundcolor);
+}

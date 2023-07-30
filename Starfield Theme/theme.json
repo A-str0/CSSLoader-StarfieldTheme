@@ -1,0 +1,33 @@
+{
+    "name": "Starfield Theme",
+    "author": "magesty_",
+    "target": "System-Wide",
+    "manifest_version": 4,
+    "description": "Theme themed after the Starfield game (some elements may differ from the game, as they are either copyrighted or cost money)",
+    "version": "v0.1",
+    "inject": {
+        "shared.css": ["QuickAccess", "SP", "MainMenu"]
+    },
+    "patches": {
+        "MainMenu": {
+            "type" : "checkbox",
+            "default": "Yes",
+            "values": {
+                "Yes": {},
+                "No": {}
+            },
+            "components": [
+                {
+                    "name": "Background color",
+                    "type": "color-picker",
+                    "on": "Yes",
+                    "default": "#99968b",
+                    "css_variable": "ST-mainmenu-backgroundcolor",
+                    "tabs": [
+                        "MainMenu"
+                    ]
+                }
+            ]
+        }
+    }
+}
