@@ -138,6 +138,10 @@
     width: 15px;
 }
 
+.gamepadslider_SliderHandleContainer_1pQZi {
+    transform: translateX(calc(-100% * var(--inverse-normalized-value) + 15px * var(--inverse-normalized-value)));
+}
+
 .gamepaddialog_ToggleRail_2JtC3 {
     background: var(--ST-primary-dark-color);
 }

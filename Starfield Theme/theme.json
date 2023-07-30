@@ -19,7 +19,7 @@
             "type" : "checkbox",
             "default": "Yes",
             "values": {
-                "Yes": { "CSS/mainmenu.css": [ "QuickAccess", "SP", "MainMenu" ] },
+                "Yes": { "CSS/quickaccess.css": [ "QuickAccess", "SP", "MainMenu" ] },
                 "No": {}
             }
         },
