@@ -16,10 +16,10 @@
             }
         },
         "Quick Access": {
-            "type": "checkbox",
+            "type" : "checkbox",
             "default": "Yes",
-            "values:": {
-                "Yes": { "CSS/quickaccess.css": [ "QuickAccess" ] },
+            "values": {
+                "Yes": { "CSS/mainmenu.css": [ "QuickAccess", "SP", "MainMenu" ] },
                 "No": {}
             }
         },
