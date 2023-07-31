@@ -1,0 +1,23 @@
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_DrawBackground_2NQoF {
+    background: var(--ST-background-blur);
+}
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL {
+    backdrop-filter: blur(2px);
+}
+
+/* background image on Home screen */
+/*.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+    background-image: url();
+}*/
+
+.header_BatteryIcon_1_6kL svg svg rect,
+.quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
+    fill: var(--ST-background-bar-image);
+}
+
+.BasicUI .header_Header_1E_SL {
+    color: var(--ST-primary-light-color);
+}
+.header_Header_1E_SL::before {
+    color: var(--ST-secondary-regular-color);
+}
