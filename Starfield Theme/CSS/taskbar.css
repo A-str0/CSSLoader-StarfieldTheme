@@ -9,7 +9,7 @@
 }
 
 .header_HeaderItem_2HnVd {
-    padding: 0 15px;
+    padding: 0 7px;
 }
 .header_HeaderItem_2HnVd.gpfocus, .header_HeaderItem_2HnVd.gpfocuswithin {
     background: var(--ST-primary-regular-color);
@@ -23,4 +23,8 @@
 }
 .searchbar_SearchBox_2a1-s {
     letter-spacing: -1px;
+}
+
+.footer_BasicFooter_3T1iF {
+    background: var(--ST-secondary-dark-color);
 }

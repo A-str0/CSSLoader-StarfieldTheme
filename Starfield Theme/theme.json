@@ -18,11 +18,19 @@
                 "No": {}
             }
         },
-        "Quick Access": {
+        "Quick Access Menu": {
             "type" : "checkbox",
             "default": "Yes",
             "values": {
                 "Yes": { "CSS/quickaccess.css": ["All"] },
+                "No": {}
+            }
+        },
+        "Home Screen": {
+            "type" : "checkbox",
+            "default": "Yes",
+            "values": {
+                "Yes": { "CSS/homescreen.css": ["All"] },
                 "No": {}
             }
         },
@@ -31,6 +39,14 @@
             "default": "Yes",
             "values": {
                 "Yes": { "CSS/taskbar.css": ["All"] },
+                "No": {}
+            }
+        },
+        "Additionals": {
+            "type" : "checkbox",
+            "default": "Yes",
+            "values": {
+                "Yes": { "CSS/additionals.css": ["All"] },
                 "No": {}
             }
         },

@@ -1,0 +1,9 @@
+/* background image on Home screen */
+/*.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+    background-image: url();
+}*/
+
+.audio_VolumePopin_2iUUM {
+    background: var(--ST-background-color);
+    border-radius: 25px;
+}
