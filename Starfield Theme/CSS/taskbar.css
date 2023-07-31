@@ -1,0 +1,22 @@
+.BasicUI .header_Header_1E_SL {
+    color: var(--ST-primary-light-color);
+}
+.header_Header_1E_SL::before {
+    background-color: var(--ST-secondary-dark-color);
+}
+.header_Header_1E_SL.header_OverrideHeaderBackground_MS2nB.gpfocuswithin::before {
+    background-color: var(--ST-secondary-light-color);
+}
+
+.header_HeaderItem_2HnVd.gpfocus, .header_HeaderItem_2HnVd.gpfocuswithin {
+    background: var(--ST-primary-regular-color);
+    color: var(--ST-secondary-regular-color);
+}
+
+.FlexGrowUniversalSearch .searchbar_SearchContainer_161Tj {
+    margin-right: 72px;
+}
+.searchbar_SearchBox_2a1-s {
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}

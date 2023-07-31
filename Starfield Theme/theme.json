@@ -4,14 +4,17 @@
     "target": "System-Wide",
     "manifest_version": 4,
     "description": "Theme themed after the Starfield game (some elements may differ from the game, as they are either copyrighted or cost money)",
-    "version": "v0.2",
+    "version": "v0.3",
     "inject": { "CSS/colors.css": [ "QuickAccess", "SP", "MainMenu" ] },
+    "tabs": {
+        "All": [ "QuickAccess", "SP", "MainMenu" ]
+    },
     "patches": {
         "Main Menu": {
             "type" : "checkbox",
             "default": "Yes",
             "values": {
-                "Yes": { "CSS/mainmenu.css": ["MainMenu"] },
+                "Yes": { "CSS/mainmenu.css": ["All"] },
                 "No": {}
             }
         },
@@ -19,7 +22,7 @@
             "type" : "checkbox",
             "default": "Yes",
             "values": {
-                "Yes": { "CSS/quickaccess.css": [ "QuickAccess", "SP", "MainMenu" ] },
+                "Yes": { "CSS/quickaccess.css": ["All"] },
                 "No": {}
             }
         },
@@ -27,7 +30,23 @@
             "type" : "checkbox",
             "default": "Yes",
             "values": {
-                "Yes": { "CSS/bigpicture.css": [ "QuickAccess", "SP", "MainMenu" ] },
+                "Yes": { "CSS/taskbar.css": ["All"] },
+                "No": {}
+            }
+        },
+        "Battery": {
+            "type" : "checkbox",
+            "default": "Yes",
+            "values": {
+                "Yes": { "CSS/battery.css": ["All"] },
+                "No": {}
+            }
+        },
+        "Blur": {
+            "type" : "checkbox",
+            "default": "Yes",
+            "values": {
+                "Yes": { "CSS/blur.css": ["All"] },
                 "No": {}
             }
         },
@@ -35,7 +54,7 @@
             "type": "checkbox",
             "default": "Yes",
             "values": {
-                "Yes": { "CSS/keyboard.css": [ "QuickAccess", "SP", "MainMenu" ] },
+                "Yes": { "CSS/keyboard.css": ["All"] },
                 "No": {}
             }
         },
@@ -43,9 +62,7 @@
             "type": "checkbox",
             "default": "Yes",
             "values": {
-                "Yes": {
-                    "CSS/font.css": ["SP", "MainMenu", "QuickAccess"]
-                },
+                "Yes": { "CSS/font.css": ["All"] },
                 "No": {}
             }
         }

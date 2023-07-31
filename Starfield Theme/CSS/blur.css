@@ -1,0 +1,6 @@
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_DrawBackground_2NQoF {
+    background: var(--ST-primary-light-color);
+}
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL {
+    backdrop-filter: blur(2px);
+}
