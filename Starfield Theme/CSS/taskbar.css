@@ -8,15 +8,19 @@
     background-color: var(--ST-secondary-light-color);
 }
 
+.header_HeaderItem_2HnVd {
+    padding: 0 15px;
+}
 .header_HeaderItem_2HnVd.gpfocus, .header_HeaderItem_2HnVd.gpfocuswithin {
     background: var(--ST-primary-regular-color);
     color: var(--ST-secondary-regular-color);
 }
 
 .FlexGrowUniversalSearch .searchbar_SearchContainer_161Tj {
-    margin-right: 72px;
+    max-width: 509px;
+    margin-left: 0px;
+    margin-right: auto;
 }
 .searchbar_SearchBox_2a1-s {
-    letter-spacing: -2px;
-    text-transform: uppercase;
+    letter-spacing: -1px;
 }
