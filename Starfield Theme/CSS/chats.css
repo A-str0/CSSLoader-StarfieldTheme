@@ -1,0 +1,57 @@
+.multiChatDialog.GamepadMode.gpfocuswithin, .GamepadMode .multiChatDialog.gpfocuswithin,
+.multiChatDialog.GamepadMode, .GamepadMode .multiChatDialog {
+    background: radial-gradient(155.42% 100% at 50% 0%, var(--ST-primary-dark-color) 30%, var(--ST-primary-regular-color) 80%, var(--ST-primary-light-color) 100%);
+}
+.GamepadMode.friendlist .FriendsListSteamDeckTopSection,
+.GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
+    background: var(--ST-secondary-dark-color);
+    color: var(--ST-primary-light-color);
+    box-shadow: 0 0 0px 4px var(--ST-secondary-light-color);
+    margin-top: 10px;
+}
+
+.chatWindow .chatEntry>*.GamepadMode, .GamepadMode .chatWindow .chatEntry>*,
+.multiChatDialog.GamepadMode.gpfocuswithin .chatWindow .chatEntry>*, .GamepadMode .multiChatDialog.gpfocuswithin .chatWindow .chatEntry>* {
+    background-color: var(--ST-secondary-dark-color);
+}
+.FriendChatTypingNotification.GamepadMode, .GamepadMode .FriendChatTypingNotification {
+    background: none;
+}
+.FriendChatTypingNotification {
+    color: var(--ST-secondary-dark-color);
+}
+
+.ChatHistorySelector {
+    background: #233b453b;
+}
+.ChatHistoryContainer.gpfocus .msg.timeDivision {
+    color: var(--ST-secondary-dark-color);
+}
+.ChatHistoryContainer.gpfocus .msg.timeDivision .horizDivider, .ChatHistoryContainer.gpfocus .msg.timeDivision .preHorizDivider {
+    background-color: var(--ST-secondary-dark-color);
+}
+.messages_SpeakerName_Default_2NMuV.GamepadMode, .GamepadMode .messages_SpeakerName_Default_2NMuV {
+    color: var(--ST-offline-color);
+}
+
+.SteamDeckChats.gpfocuswithin .chatRoomGroupHeader.GamepadMode, .SteamDeckChats.gpfocuswithin .GamepadMode .chatRoomGroupHeader,
+.chatRoomGroupHeader.GamepadMode, .GamepadMode .chatRoomGroupHeader {
+    background-color: var(--ST-secondary-regular-color);
+    box-shadow: var(--ST-secondary-dark-color);
+}
+
+.SteamDeckChats.gpfocuswithin .chatroom_ChatRoomGroupControlsSteamDeck_imObP>div,
+.chatroom_ChatRoomGroupControlsSteamDeck_imObP>div {
+    background-color: var(--ST-secondary-regular-color);
+}
+
+.chatRoomGroupHeader.GamepadMode, .GamepadMode .chatRoomGroupHeader {
+    padding: 6px 10px 6px 10px;
+}
+
+.GamepadMode.friendlist .FriendsListTab {
+    color: var(--ST-primary-dark-color);
+}
+.GamepadMode.friendlist .FriendsListTab.Active {
+    color: var(--ST-orange-color);
+}

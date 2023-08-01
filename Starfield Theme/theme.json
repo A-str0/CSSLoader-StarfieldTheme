@@ -26,11 +26,14 @@
                 "No": {}
             }
         },
-        "Home Screen": {
+        "System": {
             "type" : "checkbox",
             "default": "Yes",
             "values": {
-                "Yes": { "CSS/homescreen.css": ["All"] },
+                "Yes": { 
+                    "CSS/homescreen.css": ["All"],
+                    "CSS/library.css": ["All"]
+                },
                 "No": {}
             }
         },

@@ -51,16 +51,13 @@
     var(--ST-primary-dark-color) 100%);
 }
 
-.GamepadMode.friendlist .FriendsListSteamDeckTopSection {
-    background: var(--ST-secondary-dark-color);
-    color: var(--ST-primary-light-color);
-    box-shadow: 0 0 0px 4px var(--ST-secondary-light-color);
-    margin-top: 10px;
-}
-
 .offline .personanameandstatus_playerName_r62qz.GamepadMode,
 .GamepadMode .offline .personanameandstatus_playerName_r62qz {
     color: var(--ST-secondary-dark-color);
+}
+
+.notificationcontent_Timestamp_3q7nN, .notificationcontent_TimestampDesktop_1N5mc {
+    color: var(--ST-primary-light-color);
 }
 
 .offline .personanameandstatus_richPresenceLabel_1k82N, 
@@ -77,14 +74,29 @@
 
 .gamepadslider_SliderControlWithIcon_2M8Pt .gamepadslider_Icon_21uKi svg,
 .gamepaddialog_FieldLabel_3b0U-,
+.gamepaddialog_ToggleSwitch_3__OD,
 
-.gamepaddialog_Field_S-_La .Focusable {
+.gamepaddialog_Field_S-_La .Focusable,
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
     color: var(--ST-secondary-regular-color);
 }
 .gamepaddialog_Field_S-_La .Focusable:hover,
 .gamepaddialog_Field_S-_La .Focusable:active,
 .gamepaddialog_Field_S-_La .Focusable:visited {
     color: var(--ST-primary-dark-color);
+}
+
+.gamepaddialog_Field_S-_La .Focusable:focus {
+    color: var(--ST-primary-light-color);
+}
+
+.quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
+.quickaccesscontrols_BatteryIcon_39aNh svg,
+.quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6,
+
+.gamepaddialog_ToggleRail_2JtC3::before{
+    color: var(--ST-secondary-light-color);
 }
 
 .online .personanameandstatus_playerName_r62qz.GamepadMode, 

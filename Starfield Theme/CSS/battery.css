@@ -1,6 +1,8 @@
-.header_BatteryIcon_1_6kL svg svg rect,
-.quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
+.header_BatteryIcon_1_6kL svg svg rect {
     fill: var(--ST-primary-light-color);
+}
+.quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
+    fill: var(--ST-secondary-light-color);
 }
 .header_BatteryIcon_1_6kL svg svg rect.gpfocus,
 .header_BatteryIcon_1_6kL svg svg rect.gpfocuswithin,
