@@ -81,13 +81,17 @@
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
     color: var(--ST-secondary-regular-color);
 }
+.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
+    color: var(--ST-primary-light-color);
+}
 .gamepaddialog_Field_S-_La .Focusable:hover,
 .gamepaddialog_Field_S-_La .Focusable:active,
 .gamepaddialog_Field_S-_La .Focusable:visited {
     color: var(--ST-primary-dark-color);
 }
 
-.gamepaddialog_Field_S-_La .Focusable:focus {
+.gamepaddialog_Field_S-_La .Focusable:focus,
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
     color: var(--ST-primary-light-color);
 }
 
@@ -217,4 +221,13 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P svg p
 .perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,
 .gamepaddialog_FieldDescription_2OJfk {
     color: #8b929a;
+}
+
+@keyframes quickaccessmenu_ItemFocusAnim-darkerGrey-nocolor_2YeD3 {
+    0% {
+        background: var(--ST-grey-color);
+    }
+    100% {
+        background: var(--ST-darkgrey-color);
+    }
 }

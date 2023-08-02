@@ -55,3 +55,33 @@
 .GamepadMode.friendlist .FriendsListTab.Active {
     color: var(--ST-orange-color);
 }
+.GamepadMode.friendlist .FriendsListSteamDeckTopSection,
+#QuickAccess-Menu .GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
+    background-color: var(--ST-secondary-dark-color);
+    box-shadow: 0 0 0px 2px var(--ST-secondary-light-color);
+}
+.GamepadMode.friendlist .FriendsListTab>.SVGIcon_Button,
+.GamepadMode.friendlist .FriendsListTab svg,
+#QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader,
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path:first-of-type, 
+.GamepadMode .friendslist_TabBumper_3Jr0A svg path:first-of-type,
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path, 
+.GamepadMode .friendslist_TabBumper_3Jr0A svg path,
+
+.GamepadMode.friendlist .TabPanelHeader svg {
+    color: var(--ST-primary-light-color);
+}
+.GamepadMode.friendlist .FriendsListTab.Active {
+    color: var(--ST-yellow-color);
+}
+.GamepadMode.friendlist .FriendsListTab.gpfocus,
+
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton.gpfocus, 
+.GamepadMode.friendlist .TabPanelHeader .AddFriendButton.gpfocus, 
+.GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton.gpfocus{
+    color: var(--ST-secondary-light-color);
+}
+
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton, .GamepadMode.friendlist .TabPanelHeader .AddFriendButton, .GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton {
+    background-color: var(--ST-secondary-regular-color);
+}
