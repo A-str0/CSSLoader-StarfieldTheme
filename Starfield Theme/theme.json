@@ -32,7 +32,8 @@
             "values": {
                 "Yes": { 
                     "CSS/homescreen.css": ["All"],
-                    "CSS/library.css": ["All"]
+                    "CSS/library.css": ["All"],
+                    "CSS/chats.css": ["All"]
                 },
                 "No": {}
             }
