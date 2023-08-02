@@ -1,0 +1,36 @@
+.downloadgraph_GraphAndStats_3KDkL {
+    background-image: var(--ST-background-download-image);
+    background-size: 854px 136px;
+}
+.downloads_ItemListScrollWrapper_Z6wLC {
+    background: var(--ST-secondary-regular-color);
+}
+.downloads_TopBar_SEmVp {
+    background: linear-gradient(to right, #393939, #8f8f8f);
+}
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj,
+.downloads_SectionItemStatus_1Sygg {
+    background: var(--ST-secondary-dark-color);
+    color: var(--ST-primary-regular-color);
+}
+.downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+    color: var(--ST-secondary-dark-color);
+}
+.downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE div {
+    text-align: center;
+}
+
+.BasicUI .downloads_SectionItem_1VNuY {
+    background: var(--ST-primary-dark-color);
+}
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
+    color: var(--ST-secondary-regular-color);
+}
+
+@keyframes downloads_ItemFocusAnim-darkGrey_2_NVa {
+    0% {
+        background: var(--ST-primary-light-color);
+    } 100% {
+        background: var(--ST-primary-regular-color);
+    }
+}

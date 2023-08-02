@@ -29,8 +29,13 @@
 }
 .ChatHistoryContainer.gpfocus .msg.timeDivision .horizDivider, .ChatHistoryContainer.gpfocus .msg.timeDivision .preHorizDivider,
 
-.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton {
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton,
+
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .oneOnOneVoiceChatButton {
     background-color: var(--ST-secondary-dark-color);
+}
+.RightSideButtonContainer .AddFriendButton svg, .RightSideButtonContainer .oneOnOneVoiceChatButton svg, .RightSideButtonContainer .inviteAnotherFriendButton svg {
+    color: var(--ST-primary-light-color);
 }
 .messages_SpeakerName_Default_2NMuV.GamepadMode, .GamepadMode .messages_SpeakerName_Default_2NMuV {
     color: var(--ST-offline-color);
@@ -97,6 +102,20 @@
 
 .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj.GamepadMode.gpfocus, .GamepadMode .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj.gpfocus {
     background-color: var(--ST-primary-light-color);
+}
+
+.msg.gpfocus {
+    background: var(--ST-primary-light-color);
+}
+.MultiUserChat .isCurrentUser .msgText,
+.msgText {
+    color: var(--ST-secondary-regular-color);
+}
+.messages_SpeakerName_InGame_3xyn_.GamepadMode, .GamepadMode .messages_SpeakerName_InGame_3xyn_ {
+    color: var(--ST-play-color);
+}
+.isCurrentUser .messages_SpeakerName_Online_7B6M2.GamepadMode, .GamepadMode .isCurrentUser .messages_SpeakerName_Online_7B6M2 {
+    color: var(--ST-online-color);
 }
 
 @keyframes ItemFocusAnim-darkGray {
