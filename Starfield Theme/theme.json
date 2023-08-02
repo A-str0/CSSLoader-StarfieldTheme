@@ -33,7 +33,8 @@
                 "Yes": { 
                     "CSS/homescreen.css": ["All"],
                     "CSS/library.css": ["All"],
-                    "CSS/chats.css": ["All"]
+                    "CSS/chats.css": ["All"],
+                    "CSS/downloads.css": ["All"]
                 },
                 "No": {}
             }
