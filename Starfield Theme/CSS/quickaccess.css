@@ -44,7 +44,8 @@
     color: var(--ST-secondary-light-color);
 }
 
-.GamepadMode.friendlist {
+.GamepadMode.friendlist,
+.GamepadMode.friendlist.gpfocuswithin {
     background: radial-gradient(155.42% 100% at 50% 0%,
     var(--ST-primary-light-color) 0%,
     var(--ST-primary-regular-color) 50%,
@@ -81,7 +82,7 @@
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
     color: var(--ST-secondary-regular-color);
 }
-.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
+.ChatRoomListGroupItem.gpfocus .groupNameStatusContainer .chatRoomName {
     color: var(--ST-primary-light-color);
 }
 .gamepaddialog_Field_S-_La .Focusable:hover,
@@ -226,8 +227,14 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P svg p
 @keyframes quickaccessmenu_ItemFocusAnim-darkerGrey-nocolor_2YeD3 {
     0% {
         background: var(--ST-grey-color);
-    }
-    100% {
+    } 100% {
         background: var(--ST-darkgrey-color);
+    }
+}
+@keyframes recentchatssteamdeck_ItemFocusAnim-darkGrey_1pEXV {
+    0% {
+        background: var(--ST-secondary-light-color);
+    } 100% {
+        background: var(--ST-secondary-regular-color);
     }
 }

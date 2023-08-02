@@ -6,7 +6,7 @@
 .GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
     background: var(--ST-secondary-dark-color);
     color: var(--ST-primary-light-color);
-    box-shadow: 0 0 0px 4px var(--ST-secondary-light-color);
+    box-shadow: 0 0 0px 2px var(--ST-secondary-light-color);
     margin-top: 10px;
 }
 
@@ -27,7 +27,9 @@
 .ChatHistoryContainer.gpfocus .msg.timeDivision {
     color: var(--ST-secondary-dark-color);
 }
-.ChatHistoryContainer.gpfocus .msg.timeDivision .horizDivider, .ChatHistoryContainer.gpfocus .msg.timeDivision .preHorizDivider {
+.ChatHistoryContainer.gpfocus .msg.timeDivision .horizDivider, .ChatHistoryContainer.gpfocus .msg.timeDivision .preHorizDivider,
+
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton {
     background-color: var(--ST-secondary-dark-color);
 }
 .messages_SpeakerName_Default_2NMuV.GamepadMode, .GamepadMode .messages_SpeakerName_Default_2NMuV {
@@ -71,6 +73,13 @@
 .GamepadMode.friendlist .TabPanelHeader svg {
     color: var(--ST-primary-light-color);
 }
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path, .GamepadMode .friendslist_TabBumper_3Jr0A svg path {
+    fill: var(--ST-primary-light-color);
+}
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path:first-of-type, .GamepadMode .friendslist_TabBumper_3Jr0A svg path:first-of-type {
+    stroke: var(--ST-primary-light-color);
+}
+
 .GamepadMode.friendlist .FriendsListTab.Active {
     color: var(--ST-yellow-color);
 }
@@ -84,4 +93,16 @@
 
 .GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton, .GamepadMode.friendlist .TabPanelHeader .AddFriendButton, .GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton {
     background-color: var(--ST-secondary-regular-color);
+}
+
+.chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj.GamepadMode.gpfocus, .GamepadMode .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj.gpfocus {
+    background-color: var(--ST-primary-light-color);
+}
+
+@keyframes ItemFocusAnim-darkGray {
+    0% {
+        background: var(--ST-secondary-regular-color);
+    } 100% {
+        background: var(--ST-secondary-dark-color);
+    }
 }
